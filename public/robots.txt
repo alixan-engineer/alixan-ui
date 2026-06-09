@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://ui.alixan.kz/sitemap_index.xml
