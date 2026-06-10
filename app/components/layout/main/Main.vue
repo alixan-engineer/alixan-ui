@@ -52,7 +52,6 @@ const frameworks = [
 					v-for="framework in frameworks"
 					:key="framework.key"
 					:href="framework.isReady ? framework.href : undefined"
-					:target="framework.isReady ? '_blank' : undefined"
 					:rel="framework.isReady ? 'noreferrer' : undefined"
 					:type="framework.isReady ? undefined : 'button'"
 					:disabled="framework.isReady ? undefined : true"
