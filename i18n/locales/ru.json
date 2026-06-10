@@ -53,18 +53,15 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Готовые Vue и Nuxt компоненты с чистыми defaults, документацией и локализованным SEO.",
-				"action": "Открыть Nuxt UI"
+				"description": "Готовые Vue и Nuxt компоненты с чистыми defaults, документацией и локализованным SEO."
 			},
 			"angular": {
 				"label": "Angular",
-				"description": "Типизированные web-компоненты для dashboard, SaaS продуктов и enterprise-сценариев.",
-				"action": "Запланировано"
+				"description": "Типизированные web-компоненты для dashboard, SaaS продуктов и enterprise-сценариев."
 			},
 			"flutter": {
 				"label": "Flutter",
-				"description": "Mobile-first Cupertino-style блоки для аккуратных cross-platform приложений.",
-				"action": "Запланировано"
+				"description": "Mobile-first Cupertino-style блоки для аккуратных cross-platform приложений."
 			}
 		},
 		"features": {

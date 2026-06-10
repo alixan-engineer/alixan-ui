@@ -53,18 +53,15 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Таза defaults, документация және localized SEO бар дайын Vue және Nuxt компоненттері.",
-				"action": "Nuxt UI ашу"
+				"description": "Таза defaults, документация және localized SEO бар дайын Vue және Nuxt компоненттері."
 			},
 			"angular": {
 				"label": "Angular",
-				"description": "Dashboard, SaaS өнімдері және enterprise workflows үшін typed web компоненттер.",
-				"action": "Жоспарда"
+				"description": "Dashboard, SaaS өнімдері және enterprise workflows үшін typed web компоненттер."
 			},
 			"flutter": {
 				"label": "Flutter",
-				"description": "Жинақы cross-platform app-тарға арналған mobile-first Cupertino-style блоктар.",
-				"action": "Жоспарда"
+				"description": "Жинақы cross-platform app-тарға арналған mobile-first Cupertino-style блоктар."
 			}
 		},
 		"features": {

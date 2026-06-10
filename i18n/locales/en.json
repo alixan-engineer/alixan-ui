@@ -53,18 +53,15 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Production-ready Vue and Nuxt components with clean defaults, docs and localized SEO.",
-				"action": "Open Nuxt UI"
+				"description": "Production-ready Vue and Nuxt components with clean defaults, docs and localized SEO."
 			},
 			"angular": {
 				"label": "Angular",
-				"description": "Typed web components for dashboards, SaaS products and enterprise workflows.",
-				"action": "Planned"
+				"description": "Typed web components for dashboards, SaaS products and enterprise workflows."
 			},
 			"flutter": {
 				"label": "Flutter",
-				"description": "Mobile-first Cupertino-style building blocks for polished cross-platform apps.",
-				"action": "Planned"
+				"description": "Mobile-first Cupertino-style building blocks for polished cross-platform apps."
 			}
 		},
 		"features": {
