@@ -1,4 +1,7 @@
 {
+	"app": {
+		"back": "Назад в Alixan"
+	},
 	"common": {
 		"brand": "Alixan UI",
 		"language": "Язык"
