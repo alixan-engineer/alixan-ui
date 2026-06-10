@@ -71,7 +71,11 @@ const updatePopoverPosition = async (): Promise<void> => {
 		? 'right'
 		: 'left';
 
-	if (vertical === 'bottom' && space.bottom < height && space.top > space.bottom) {
+	if (
+		vertical === 'bottom' &&
+		space.bottom < height &&
+		space.top > space.bottom
+	) {
 		vertical = 'top';
 	}
 
@@ -79,18 +83,25 @@ const updatePopoverPosition = async (): Promise<void> => {
 		vertical = 'bottom';
 	}
 
-	if (horizontal === 'left' && space.right < width && space.left > space.right) {
+	if (
+		horizontal === 'left' &&
+		space.right < width &&
+		space.left > space.right
+	) {
 		horizontal = 'right';
 	}
 
-	if (horizontal === 'right' && space.left < width && space.right > space.left) {
+	if (
+		horizontal === 'right' &&
+		space.left < width &&
+		space.right > space.left
+	) {
 		horizontal = 'left';
 	}
 
 	const rawTop =
 		vertical === 'bottom' ? rect.bottom + offset : rect.top - height - offset;
-	const rawLeft =
-		horizontal === 'left' ? rect.left : rect.right - width;
+	const rawLeft = horizontal === 'left' ? rect.left : rect.right - width;
 
 	const top = Math.max(8, Math.min(rawTop, viewportHeight - height - 8));
 	const left = Math.max(8, Math.min(rawLeft, viewportWidth - width - 8));
@@ -192,7 +203,7 @@ onBeforeUnmount(() => {
 				<div
 					v-if="open"
 					ref="popoverRef"
-					class="fixed z-9999 overflow-auto rounded-2xl border bg-background p-1 shadow-2xl origin-top-left"
+					class="fixed z-9999 overflow-auto rounded-2xl border bg-popover p-1 shadow-2xl origin-top-left"
 					:style="popoverStyle"
 					@mousedown.stop
 					@click.stop

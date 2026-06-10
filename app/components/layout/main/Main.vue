@@ -52,10 +52,11 @@ const frameworks = [
 					v-for="framework in frameworks"
 					:key="framework.key"
 					:href="framework.isReady ? framework.href : undefined"
+					:target="framework.isReady ? '_blank' : undefined"
 					:rel="framework.isReady ? 'noreferrer' : undefined"
 					:type="framework.isReady ? undefined : 'button'"
 					:disabled="framework.isReady ? undefined : true"
-					class="group relative flex min-h-37 rounded-[1.75rem] border bg-background/78 p-4 text-left shadow-sm backdrop-blur-xl transition md:min-h-68 md:p-5"
+					class="group relative overflow-hidden flex min-h-37 rounded-[1.75rem] border bg-background/78 p-4 text-left shadow-sm backdrop-blur-xl transition md:min-h-68 md:p-5"
 					:class="
 						framework.isReady
 							? 'hover:-translate-y-1 hover:border-foreground/25 hover:bg-card hover:shadow-2xl hover:shadow-foreground/10'

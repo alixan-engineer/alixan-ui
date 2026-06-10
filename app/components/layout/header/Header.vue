@@ -4,10 +4,9 @@ import { ArrowLeft } from '@lucide/vue';
 
 <template>
 	<header
-		class="w-full h-14 px-6 flex items-center gap-4 bg-secondary dark:bg-background/30 border z-30 rounded-full"
+		class="w-full h-14 max-sm:px-2 sm:px-4 flex items-center gap-4 bg-secondary dark:bg-background/30 border z-30 rounded-full"
 	>
 		<IconButton
-			class="max-lg:hidden!"
 			variant="ghost"
 			color="default"
 			href="https://alixan.kz/"
