@@ -183,7 +183,7 @@
 	}
 
 	#root {
-		@apply size-full flex flex-col divide-y overflow-y-auto;
+		@apply size-full flex flex-col overflow-hidden;
 	}
 
 	hr {
