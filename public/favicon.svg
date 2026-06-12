@@ -3,5 +3,4 @@
   <rect x="1.5" y="1.5" width="125" height="125" rx="28.5" stroke="white" stroke-opacity="0.16" stroke-width="3"/>
   <path d="M29 91L54.8 37H73.2L99 91H81.2L64 53.7L46.8 91H29Z" fill="white"/>
   <path d="M52 91L64 65L76 91H52Z" fill="#050505"/>
-  <path d="M82.8 39.2L99 91H81.2L72.3 63.4L82.8 39.2Z" fill="#46CCA6"/>
 </svg>
