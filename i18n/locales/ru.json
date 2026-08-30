@@ -9,7 +9,7 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Готовые Vue и Nuxt компоненты с чистыми defaults, документацией и локализованным SEO."
+				"description": "Коллекция легковесных компонентов в стиле Cupertino, созданная специально для Nuxt."
 			}
 		}
 	},

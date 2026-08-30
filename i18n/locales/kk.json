@@ -9,7 +9,7 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Таза defaults, документация және localized SEO бар дайын Vue және Nuxt компоненттері."
+				"description": "Nuxt үшін арнайы жасалған Cupertino стиліндегі жеңіл компоненттер жинағы."
 			}
 		}
 	},

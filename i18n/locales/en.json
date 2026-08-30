@@ -9,7 +9,7 @@
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
-				"description": "Production-ready Vue and Nuxt components with clean defaults, docs and localized SEO."
+				"description": "A collection of lightweight Cupertino-style components built specifically for Nuxt."
 			}
 		}
 	},
