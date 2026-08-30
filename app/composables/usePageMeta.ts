@@ -7,11 +7,11 @@ interface PageMetaOptions {
 }
 
 export const usePageMeta = (payload?: PageMetaOptions): void => {
-	const { $tn } = useNuxtApp();
+	const { t } = useI18n();
 	const route = useRoute();
 
-	const metaTitle = $tn(payload?.title || siteConfig.title);
-	const metaDescription = $tn(payload?.description || siteConfig.description);
+	const metaTitle = t(payload?.title || siteConfig.title);
+	const metaDescription = t(payload?.description || siteConfig.description);
 	const metaImage = payload?.img || siteConfig.ogImage;
 
 	useSeoMeta({

@@ -52,7 +52,7 @@ const statusClass = computed(() =>
 
 <template>
 	<div v-bind="{ ...attrs, class: undefined }" :class="statusClass">
-		<span class="status-dot size-1.5 rounded-full" aria-hidden="true" />
+		<!-- <span class="status-dot size-1.5 rounded-full" /> -->
 		<span>
 			<slot>
 				{{ label }}

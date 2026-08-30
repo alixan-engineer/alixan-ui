@@ -1,85 +1,23 @@
 {
-	"app": {
-		"back": "Назад в Alixan"
-	},
-	"common": {
-		"brand": "Alixan UI",
-		"language": "Язык"
-	},
-	"seo": {
-		"title": "Alixan UI - Cupertino UI компоненты для Nuxt, Angular и Flutter",
-		"description": "Легковесная и красивая UI-система в чистом Cupertino стиле. Nuxt уже готов, Angular и Flutter появятся позже."
-	},
-	"settings": {
-		"language": "Язык",
-		"theme": "Тема"
-	},
-	"page": {
-		"eyebrow": "Cupertino UI система",
-		"title": "Легковесные компоненты для аккуратных продуктовых интерфейсов.",
-		"description": "Alixan UI помогает быстрее собирать красивые SaaS, dashboard и startup интерфейсы на Nuxt, Angular и Flutter.",
-		"primaryCta": "Открыть Nuxt UI",
-		"secondaryCta": "Главный сайт",
-		"availability": "Nuxt уже готов. Angular и Flutter в разработке.",
-		"frameworksLabel": "Get started",
-		"status": {
-			"ready": "Готово",
-			"soon": "Скоро"
-		},
-		"cards": {
-			"nuxt": {
-				"title": "Nuxt",
-				"description": "Готовые Vue и Nuxt компоненты с документацией, i18n, SEO helpers и чистыми defaults.",
-				"action": "Открыть docs"
-			},
-			"angular": {
-				"title": "Angular",
-				"description": "Типизированные Angular компоненты для админок, SaaS продуктов и enterprise интерфейсов.",
-				"action": "Запланировано"
-			},
-			"flutter": {
-				"title": "Flutter",
-				"description": "Mobile-first компоненты для startup MVP, маркетплейсов и cross-platform приложений.",
-				"action": "Запланировано"
-			}
-		}
+	"hero": {
+		"title": "Минималистичная UI-система",
+		"subtitle": "Легковесные компоненты в стиле Cupertino для современных интерфейсов.",
+		"frameworkLabel": "Фреймворк",
+		"open": "Открыть"
 	},
 	"main": {
-		"badge": "Nuxt, Angular, Flutter",
-		"title": "Одна чистая UI-система для твоего stack.",
-		"description": "Alixan UI приносит легковесные Cupertino-style компоненты в продуктовые интерфейсы. Начинай с Nuxt сейчас, Angular и Flutter появятся позже.",
-		"note": "Компактная точка входа для выбора нужной реализации Alixan UI.",
-		"status": {
-			"ready": "Готово",
-			"soon": "Скоро"
-		},
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
 				"description": "Готовые Vue и Nuxt компоненты с чистыми defaults, документацией и локализованным SEO."
-			},
-			"angular": {
-				"label": "Angular",
-				"description": "Типизированные web-компоненты для dashboard, SaaS продуктов и enterprise-сценариев."
-			},
-			"flutter": {
-				"label": "Flutter",
-				"description": "Mobile-first Cupertino-style блоки для аккуратных cross-platform приложений."
-			}
-		},
-		"features": {
-			"copied": {
-				"title": "Копируется в твой проект",
-				"description": "Устанавливай только нужные исходники компонентов и полностью владей ими внутри проекта."
-			},
-			"production": {
-				"title": "Готово для production",
-				"description": "Типизированные компоненты, доступные состояния и стабильные defaults для реальных продуктов."
-			},
-			"customize": {
-				"title": "Легко кастомизировать",
-				"description": "Чистые classes, CSS variables и Cupertino-like детали остаются рядом с компонентом."
 			}
 		}
+	},
+	"errorPage": {
+		"notFoundTitle": "Страница не найдена",
+		"defaultTitle": "Что-то пошло не так",
+		"notFoundDescription": "Страница не существует или была перемещена.",
+		"defaultDescription": "Произошла непредвиденная ошибка. Попробуйте ещё раз.",
+		"goHome": "На главную"
 	}
 }

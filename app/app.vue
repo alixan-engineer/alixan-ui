@@ -12,11 +12,5 @@ useHead({
 </script>
 
 <template>
-	<div
-		class="size-full max-w-container mx-auto px-4 py-6 flex flex-col gap-10 overflow-y-auto z-40"
-	>
-		<NuxtPage />
-	</div>
-
-	<Wallpaper />
+	<NuxtPage />
 </template>

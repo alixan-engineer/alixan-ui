@@ -6,8 +6,9 @@
 	/* Set your own font. */
 	--font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
 
-	/* Used for Button with "sm" size and etc... */
+	/* Alixan UI text sizes. */
 	--text-md: 15px;
+	--text-xm: 17px;
 
 	/* Default container */
 	--container-container: 1500px;
@@ -46,15 +47,6 @@
 	--radius-md: calc(var(--radius) - 2px);
 	--radius-lg: var(--radius);
 	--radius-xl: calc(var(--radius) + 2px);
-
-	--color-sidebar-background: var(--sidebar-background);
-	--color-sidebar-foreground: var(--sidebar-foreground);
-	--color-sidebar-primary: var(--sidebar-primary);
-	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-	--color-sidebar-accent: var(--sidebar-accent);
-	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-	--color-sidebar-border: var(--sidebar-border);
-	--color-sidebar-ring: var(--sidebar-ring);
 }
 
 :root {
@@ -87,15 +79,6 @@
 	--border: oklch(0.92 0.004 286.32);
 	--input: oklch(0.92 0.004 286.32);
 	--ring: oklch(0.708 0 0);
-
-	--sidebar-background: oklch(0.985 0 0);
-	--sidebar-foreground: oklch(0.141 0.005 285.823);
-	--sidebar-primary: oklch(0.141 0.005 285.823);
-	--sidebar-primary-foreground: oklch(0.985 0 0);
-	--sidebar-accent: oklch(92% 0 0);
-	--sidebar-accent-foreground: oklch(0.21 0.006 285.885);
-	--sidebar-border: oklch(0.92 0.004 286.32);
-	--sidebar-ring: oklch(0.708 0 0);
 }
 
 .dark {
@@ -126,15 +109,6 @@
 	--border: oklch(1 0 0 / 10%);
 	--input: oklch(1 0 0 / 15%);
 	--ring: oklch(0.556 0 0);
-
-	--sidebar-background: oklch(0.21 0.006 285.885);
-	--sidebar-foreground: oklch(0.985 0 0);
-	--sidebar-primary: oklch(0.985 0 0);
-	--sidebar-primary-foreground: oklch(0.141 0.005 285.823);
-	--sidebar-accent: oklch(0.274 0.006 286.033);
-	--sidebar-accent-foreground: oklch(0.985 0 0);
-	--sidebar-border: oklch(1 0 0 / 10%);
-	--sidebar-ring: oklch(0.439 0 0);
 }
 
 @layer base {
@@ -152,7 +126,7 @@
 
 	html,
 	body {
-		@apply size-full bg-background text-foreground overflow-hidden;
+		@apply size-full min-h-full bg-background text-foreground overflow-hidden;
 	}
 
 	body {
@@ -178,7 +152,7 @@
 	}
 
 	#root {
-		@apply size-full flex flex-col overflow-hidden;
+		@apply h-full min-h-full w-full flex flex-col divide-y overflow-y-auto;
 	}
 
 	hr {
@@ -186,9 +160,6 @@
 	}
 
 	button:not(:disabled),
-	[role='button']:not(:disabled) {
-		cursor: pointer;
-	}
 	p,
 	span {
 		color: inherit;
@@ -218,12 +189,7 @@
 	}
 }
 
-@utility island {
-	@apply flex flex-col border overflow-hidden;
-
-	border-radius: clamp(var(--radius-md), 20%, var(--radius-2xl));
-}
-
+/* Used for dialog, drawer and overlays. */
 @utility backdrop {
 	@apply fixed inset-0 bg-black/30 dark:bg-black/80;
 }

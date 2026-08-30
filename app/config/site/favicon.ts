@@ -1,3 +1,4 @@
+// Info: generate favicon files with IconKitchen and follow the SEO guide.
 export const favicon = [
 	{
 		rel: 'icon',

@@ -1,85 +1,23 @@
 {
-	"app": {
-		"back": "Alixan-ға оралу"
-	},
-	"common": {
-		"brand": "Alixan UI",
-		"language": "Тіл"
-	},
-	"seo": {
-		"title": "Alixan UI - Nuxt, Angular және Flutter үшін Cupertino UI компоненттері",
-		"description": "Таза Cupertino стиліндегі жеңіл әрі әдемі UI жүйе. Nuxt дайын, Angular және Flutter кейін қосылады."
-	},
-	"settings": {
-		"language": "Тіл",
-		"theme": "Тақырып"
-	},
-	"page": {
-		"eyebrow": "Cupertino UI жүйесі",
-		"title": "Жинақы product интерфейстерге арналған жеңіл компоненттер.",
-		"description": "Alixan UI Nuxt, Angular және Flutter арқылы әдемі SaaS, dashboard және startup интерфейстерін жылдам құруға көмектеседі.",
-		"primaryCta": "Nuxt UI ашу",
-		"secondaryCta": "Негізгі сайт",
-		"availability": "Nuxt дайын. Angular және Flutter әзірленіп жатыр.",
-		"frameworksLabel": "Get started",
-		"status": {
-			"ready": "Дайын",
-			"soon": "Жақында"
-		},
-		"cards": {
-			"nuxt": {
-				"title": "Nuxt",
-				"description": "Документациясы, i18n, SEO helpers және таза defaults бар дайын Vue және Nuxt компоненттері.",
-				"action": "Docs ашу"
-			},
-			"angular": {
-				"title": "Angular",
-				"description": "Admin panels, SaaS өнімдері және enterprise интерфейстерге арналған typed Angular компоненттері.",
-				"action": "Жоспарда"
-			},
-			"flutter": {
-				"title": "Flutter",
-				"description": "Startup MVP, marketplace және cross-platform product apps үшін mobile-first компоненттер.",
-				"action": "Жоспарда"
-			}
-		}
+	"hero": {
+		"title": "Минималистік UI жүйесі",
+		"subtitle": "Заманауи интерфейстерге арналған Cupertino стиліндегі жеңіл компоненттер.",
+		"frameworkLabel": "Фреймворк",
+		"open": "Ашу"
 	},
 	"main": {
-		"badge": "Nuxt, Angular, Flutter",
-		"title": "Бір таза UI жүйе, stack-іңе дайын.",
-		"description": "Alixan UI product интерфейстеріне жеңіл Cupertino-style компоненттер әкеледі. Қазір Nuxt-пен баста, Angular мен Flutter кейін қосылады.",
-		"note": "Alixan UI-дың керек реализациясын таңдауға арналған ықшам кіру нүктесі.",
-		"status": {
-			"ready": "Дайын",
-			"soon": "Жақында"
-		},
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
 				"description": "Таза defaults, документация және localized SEO бар дайын Vue және Nuxt компоненттері."
-			},
-			"angular": {
-				"label": "Angular",
-				"description": "Dashboard, SaaS өнімдері және enterprise workflows үшін typed web компоненттер."
-			},
-			"flutter": {
-				"label": "Flutter",
-				"description": "Жинақы cross-platform app-тарға арналған mobile-first Cupertino-style блоктар."
-			}
-		},
-		"features": {
-			"copied": {
-				"title": "Жобаңа көшіріледі",
-				"description": "Қажет компонент source файлдарын ғана орнатып, оларды өз жобаңда толық басқарасың."
-			},
-			"production": {
-				"title": "Production-ready",
-				"description": "Typed компоненттер, accessible states және нақты өнімдерге арналған тұрақты defaults."
-			},
-			"customize": {
-				"title": "Оңай бапталады",
-				"description": "Таза classes, CSS variables және Cupertino-like детальдар компоненттің өзіне жақын тұрады."
 			}
 		}
+	},
+	"errorPage": {
+		"notFoundTitle": "Бет табылмады",
+		"defaultTitle": "Бірдеңе дұрыс болмады",
+		"notFoundDescription": "Сіз іздеген бет жоқ немесе басқа жерге көшірілген.",
+		"defaultDescription": "Күтпеген қате пайда болды. Қайталап көріңіз.",
+		"goHome": "Басты бетке"
 	}
 }

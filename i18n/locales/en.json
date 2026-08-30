@@ -1,85 +1,23 @@
 {
-	"app": {
-		"back": "Back to Alixan"
-	},
-	"common": {
-		"brand": "Alixan UI",
-		"language": "Language"
-	},
-	"seo": {
-		"title": "Alixan UI - Cupertino UI components for Nuxt, Angular and Flutter",
-		"description": "A lightweight, beautiful UI system in a clean Cupertino style. Start with Nuxt today, with Angular and Flutter versions coming next."
-	},
-	"settings": {
-		"language": "Language",
-		"theme": "Theme"
-	},
-	"page": {
-		"eyebrow": "Cupertino UI system",
-		"title": "Lightweight components for polished product interfaces.",
-		"description": "Alixan UI is a clean component system for building beautiful SaaS, dashboard and startup interfaces faster across Nuxt, Angular and Flutter.",
-		"primaryCta": "Open Nuxt UI",
-		"secondaryCta": "Main site",
-		"availability": "Nuxt is ready. Angular and Flutter are in progress.",
-		"frameworksLabel": "Get started",
-		"status": {
-			"ready": "Ready",
-			"soon": "Coming soon"
-		},
-		"cards": {
-			"nuxt": {
-				"title": "Nuxt",
-				"description": "Production-ready Vue and Nuxt components with docs, i18n, SEO helpers and clean defaults.",
-				"action": "Open docs"
-			},
-			"angular": {
-				"title": "Angular",
-				"description": "Typed Angular components for admin panels, SaaS products and enterprise interfaces.",
-				"action": "Planned"
-			},
-			"flutter": {
-				"title": "Flutter",
-				"description": "Mobile-first components for startup MVPs, marketplaces and cross-platform product apps.",
-				"action": "Planned"
-			}
-		}
+	"hero": {
+		"title": "Minimalist UI system",
+		"subtitle": "Lightweight Cupertino-style components for modern interfaces.",
+		"frameworkLabel": "Framework",
+		"open": "Open"
 	},
 	"main": {
-		"badge": "Nuxt, Angular, Flutter",
-		"title": "One clean UI system, ready for your stack.",
-		"description": "Alixan UI brings lightweight Cupertino-style components to product interfaces. Start with Nuxt today, then follow Angular and Flutter as they arrive.",
-		"note": "A small gateway for choosing the right Alixan UI implementation.",
-		"status": {
-			"ready": "Ready",
-			"soon": "Coming soon"
-		},
 		"frameworks": {
 			"nuxt": {
 				"label": "Nuxt",
 				"description": "Production-ready Vue and Nuxt components with clean defaults, docs and localized SEO."
-			},
-			"angular": {
-				"label": "Angular",
-				"description": "Typed web components for dashboards, SaaS products and enterprise workflows."
-			},
-			"flutter": {
-				"label": "Flutter",
-				"description": "Mobile-first Cupertino-style building blocks for polished cross-platform apps."
-			}
-		},
-		"features": {
-			"copied": {
-				"title": "Copied to your app",
-				"description": "Install only the component source files you need and keep full ownership inside your project."
-			},
-			"production": {
-				"title": "Production-ready",
-				"description": "Typed components, accessible states and stable defaults for real product interfaces."
-			},
-			"customize": {
-				"title": "Easy to customize",
-				"description": "Clean classes, CSS variables and Cupertino-like details stay close to each component."
 			}
 		}
+	},
+	"errorPage": {
+		"notFoundTitle": "Page not found",
+		"defaultTitle": "Something went wrong",
+		"notFoundDescription": "The page you are looking for does not exist or has been moved.",
+		"defaultDescription": "An unexpected error occurred. Please try again.",
+		"goHome": "Go home"
 	}
 }
