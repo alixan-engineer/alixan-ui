@@ -10,9 +10,6 @@ export default defineNuxtConfig({
 	},
 	app: {
 		rootId: 'root',
-		head: {
-			meta: [{ name: 'yandex-verification', content: 'daa6869f48b8ed6b' }],
-		},
 	},
 	css: ['~/assets/css/tailwind.css'],
 	features: { inlineStyles: true },
