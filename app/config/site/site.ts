@@ -4,5 +4,5 @@ export const siteConfig = {
 	title: 'Alixan UI - Nuxt UI Components',
 	description:
 		'Modern, minimal and production-ready UI components for Nuxt 4, Vue 3 and TypeScript.',
-	ogImage: 'https://nuxt.ui.alixan.kz/og-image.webp',
+	ogImage: 'https://ui.alixan.kz/og-image.png',
 };
