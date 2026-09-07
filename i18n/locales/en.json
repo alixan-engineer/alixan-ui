@@ -1,4 +1,8 @@
 {
+	"seo": {
+		"title": "Alixan UI — a minimalist UI system for modern interfaces",
+		"description": "A collection of lightweight Cupertino-style UI components for building modern interfaces: minimalist design, a consistent design approach, and ready-made solutions for designers and developers."
+	},
 	"hero": {
 		"title": "Minimalist UI system",
 		"subtitle": "Lightweight Cupertino-style components for modern interfaces.",

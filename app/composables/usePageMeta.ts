@@ -10,8 +10,8 @@ export const usePageMeta = (payload?: PageMetaOptions): void => {
 	const { t } = useI18n();
 	const route = useRoute();
 
-	const metaTitle = t(payload?.title || siteConfig.title);
-	const metaDescription = t(payload?.description || siteConfig.description);
+	const metaTitle = () => t(payload?.title || siteConfig.title);
+	const metaDescription = () => t(payload?.description || siteConfig.description);
 	const metaImage = payload?.img || siteConfig.ogImage;
 
 	useSeoMeta({
