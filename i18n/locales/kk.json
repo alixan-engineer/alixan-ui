@@ -7,10 +7,15 @@
 		"title": "Минималистік UI жүйесі",
 		"subtitle": "Заманауи интерфейстерге арналған Cupertino стиліндегі жеңіл компоненттер.",
 		"frameworkLabel": "Фреймворк",
+		"designLabel": "Дизайн",
 		"open": "Ашу"
 	},
 	"main": {
 		"frameworks": {
+			"figma": {
+				"label": "Figma",
+				"description": "Figma ішіндегі Alixan UI компоненттер кітапханасымен заманауи интерфейстер жасаңыз."
+			},
 			"nuxt": {
 				"label": "Nuxt",
 				"description": "Nuxt үшін арнайы жасалған Cupertino стиліндегі жеңіл компоненттер жинағы."

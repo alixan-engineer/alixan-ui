@@ -7,10 +7,15 @@
 		"title": "Minimalist UI system",
 		"subtitle": "Lightweight Cupertino-style components for modern interfaces.",
 		"frameworkLabel": "Framework",
+		"designLabel": "Design",
 		"open": "Open"
 	},
 	"main": {
 		"frameworks": {
+			"figma": {
+				"label": "Figma",
+				"description": "Design modern interfaces with the Alixan UI component library in Figma."
+			},
 			"nuxt": {
 				"label": "Nuxt",
 				"description": "A collection of lightweight Cupertino-style components built specifically for Nuxt."

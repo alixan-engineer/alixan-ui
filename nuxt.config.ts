@@ -22,7 +22,14 @@ export default defineNuxtConfig({
 	components: [{ path: '~/components', pathPrefix: false }],
 	modules: [
 		'@nuxtjs/i18n',
-		['@nuxtjs/google-fonts', { families: { Geist: { wght: '200..900' } } }],
+		[
+			'@nuxtjs/google-fonts',
+			{
+				families: { Inter: { wght: '200..900' } },
+				display: 'swap',
+				preload: false,
+			},
+		],
 		'@nuxtjs/sitemap',
 		'@nuxtjs/color-mode',
 		'nuxt-svgo-loader',

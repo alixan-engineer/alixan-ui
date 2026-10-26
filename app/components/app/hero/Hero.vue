@@ -1,12 +1,22 @@
 <script setup lang="ts">
 import { ArrowRight } from '@lucide/vue';
 import NuxtLogo from '~/assets/img/nuxt.svg?url';
+import FigmaLogo from '~/assets/img/figma.svg?url';
 
 const frameworks = [
 	{
 		key: 'nuxt',
 		href: 'https://nuxt.ui.alixan.kz/',
 		img: NuxtLogo,
+		category: 'frameworkLabel',
+		accent: '#00c690',
+	},
+	{
+		key: 'figma',
+		href: 'https://www.figma.com/design/isvdD0xllqbqFak7jsjeWH/Alixan-UI?node-id=4-135',
+		img: FigmaLogo,
+		category: 'designLabel',
+		accent: '#a259ff',
 	},
 ];
 </script>
@@ -25,19 +35,20 @@ const frameworks = [
 				v-for="framework in frameworks"
 				:key="framework.key"
 				:href="framework.href"
-				class="max-w-xl p-6 space-y-6 border rounded-4xl bg-[#00c69008]"
+				:style="{ '--card-accent': framework.accent }"
+				class="w-full min-w-0 max-w-xl p-6 space-y-6 border rounded-4xl bg-[color-mix(in_srgb,var(--card-accent)_3%,transparent)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
 			>
 				<div class="flex gap-6">
-					<div class="flex-1 space-y-4">
+					<div class="min-w-0 flex-1 space-y-4">
 						<div class="flex items-center justify-between">
 							<div class="space-y-4">
-								<Status :label="$t('hero.frameworkLabel')" type="success" size="sm" />
+								<Status :label="$t(`hero.${framework.category}`)" type="success" size="sm" />
 								<h1 class="font-bold md:text-4xl max-md:text-3xl">
 									{{ $t(`main.frameworks.${framework.key}.label`) }}
 								</h1>
 							</div>
 							<div
-								class="size-20 p-4 flex items-center justify-center rounded-3xl border bg-[#00c69014] md:hidden"
+								class="size-20 p-4 flex items-center justify-center rounded-3xl border bg-[color-mix(in_srgb,var(--card-accent)_8%,transparent)] md:hidden"
 							>
 								<img
 									:src="framework.img"
@@ -49,20 +60,15 @@ const frameworks = [
 						<p class="text-muted-foreground md:text-lg max-md:text-md">
 							{{ $t(`main.frameworks.${framework.key}.description`) }}
 						</p>
-						<Button
-							variant="outlined"
-							color="secondary"
-							size="responsive"
-							class="bg-[#00c69008]!"
+						<span
+							class="inline-flex items-center justify-center gap-2 border font-medium h-9 rounded-lg px-3 text-md md:h-12 md:rounded-2xl md:px-5 md:text-lg bg-[color-mix(in_srgb,var(--card-accent)_3%,transparent)]"
 						>
 							{{ $t('hero.open') }}
-							<template #trailing>
-								<ArrowRight />
-							</template>
-						</Button>
+							<ArrowRight class="size-5 md:size-7" aria-hidden="true" />
+						</span>
 					</div>
 					<div
-						class="size-42 p-6 flex items-center justify-center rounded-4xl border bg-[#00c69014] max-md:hidden"
+						class="size-42 shrink-0 p-6 flex items-center justify-center rounded-4xl border bg-[color-mix(in_srgb,var(--card-accent)_8%,transparent)] max-md:hidden"
 					>
 						<img :src="framework.img" :alt="framework.key" class="size-full" />
 					</div>
